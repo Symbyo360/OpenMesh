@@ -67,6 +67,7 @@ project "openmesh"
 
 	--windows configuration
 	filter "system:windows"
+		defines { "WIN32" }
 		if os.getversion().majorversion == 10.0 then
 			systemversion(win10_sdk_version())
 		end
