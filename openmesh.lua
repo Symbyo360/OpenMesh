@@ -51,7 +51,7 @@ project "openmesh"
 	}
 
 	--language configuration
-	exceptionhandling "OFF"
+	exceptionhandling "ON"
 	rtti "ON"
 	warnings "Extra"
 	cppdialect "c++14"
